@@ -19,5 +19,15 @@ function toogleMobileMenu(){
 }
 
 function togleCarrito(){
+    const aside2Open = aside2.classList.contains('inactive');
+
+    if(aside2Open){
+        console.log('True');
+    }else{
+        console.log('False');
+    }
+    
     aside2.classList.toggle('inactive');
+
+
 }
